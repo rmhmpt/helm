@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pri
+spec:
+  containers:
+  - name: alp
+    image: harbor.mylab.net/library/hello-world 
+  imagePullSecrets:
+  - name: regcred2

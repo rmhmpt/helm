@@ -1,0 +1,8 @@
+jenkinsUser: matosr
+service:
+  ports:
+    https: 4000
+    http: 4001
+  type: NodePort
+
+
