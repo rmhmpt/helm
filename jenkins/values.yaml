@@ -1,4 +1,5 @@
 jenkinsUser: matosr
+#Need to do this otherwise jenkins expects to find a Loadbalancer
 service:
   ports:
     https: 4000
